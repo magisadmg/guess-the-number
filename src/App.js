@@ -8,18 +8,15 @@ import Main from './components/Main/Main.js';
 import About from './components/About/About.js';
 
 
-
-
 function App() {
   return (
     <Router>
-    <div>
-      <NavBar />
-      <Route path="/" exact component={Main} />
-      <Route path="/about/" component={About} />
-      <Footer />
- 
-    </div>
+      <div>
+        <NavBar />
+        <Route path="/" exact component={Main} />
+        <Route path="/about/" component={About} />
+        <Footer />
+      </div>
     </Router>
   );
 }

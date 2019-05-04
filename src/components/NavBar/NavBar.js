@@ -3,8 +3,6 @@ import './../../bulmaswatch.min.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
-
-
 function NavBar() {
     return (
         <nav className="navbar is-info" role="navigation" aria-label="main navigation">
